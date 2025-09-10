@@ -56,7 +56,8 @@ async function initGame() {
     try {
         // Carrega as perguntas do arquivo JSON
         // O 'await' faz o JavaScript esperar a resposta antes de continuar
-        const response = await fetch('_data/questions.json');
+        // --- LINHA ALTERADA AQUI ---
+        const response = await fetch('data/questions.json'); // Caminho atualizado para 'data/questions.json'
         questions = await response.json(); // Converte a resposta para JSON
 
         // Embaralha as perguntas para que a ordem mude a cada jogo
