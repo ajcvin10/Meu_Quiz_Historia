@@ -19,7 +19,7 @@ const gifAcertou = document.getElementById('gifAcertou');
 const gifErrou = document.getElementById('gifErrou');
 
 // Defina a duração que o GIF ficará visível (em milissegundos)
-const DURACAO_GIF = 3000; // 3 segundos (ajuste este valor como quiser)
+const DURACAO_GIF = 3000; // 3 segundos (esta variável não será mais usada para esconder o GIF automaticamente aqui)
 
 // Função para esconder todos os GIFs (garante que apenas um apareça por vez)
 function esconderTodosGifs() {
@@ -27,7 +27,7 @@ function esconderTodosGifs() {
     gifErrou.style.display = 'none';
 }
 
-// Função para mostrar um GIF específico e escondê-lo após um tempo
+// Função para mostrar um GIF específico (AGORA PERMANECE ATÉ ESCONDIDO POR OUTRA FUNÇÃO)
 function mostrarGif(gifElemento) {
     // Primeiro, garanta que qualquer outro GIF esteja escondido
     esconderTodosGifs();
@@ -35,10 +35,12 @@ function mostrarGif(gifElemento) {
     // Mostra o GIF
     gifElemento.style.display = 'block';
 
-    // Esconde o GIF após a duração definida
-    setTimeout(() => {
-        gifElemento.style.display = 'none';
-    }, DURACAO_GIF);
+    // *** CÓDIGO REMOVIDO/COMENTADO ABAIXO ***
+    // // Esconde o GIF após a duração definida
+    // setTimeout(() => {
+    //     gifElemento.style.display = 'none';
+    // }, DURACAO_GIF);
+    // *** CÓDIGO REMOVIDO/COMENTADO ACIMA ***
 }
 
 // Funções auxiliares para serem chamadas facilmente
@@ -56,7 +58,6 @@ async function initGame() {
     try {
         // Carrega as perguntas do arquivo JSON
         // O 'await' faz o JavaScript esperar a resposta antes de continuar
-        // --- LINHA ALTERADA AQUI ---
         const response = await fetch('data/questions.json'); // Caminho atualizado para 'data/questions.json'
         questions = await response.json(); // Converte a resposta para JSON
 
@@ -141,7 +142,7 @@ function checkAnswer(selectedOption, clickedButton) {
 
     const currentQuestion = questions[currentQuestionIndex];
 
-    if (selectedOption === currentQuestion.answer) {
+    if (selectedOption === currentOption.answer) { // Aqui deve ser 'currentQuestion.answer'
         score++; // Incrementa a pontuação se a resposta estiver correta
         currentScoreSpan.textContent = score; // Atualiza o placar no HTML
         feedbackText.textContent = 'Correto!';
