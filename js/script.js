@@ -142,7 +142,8 @@ function checkAnswer(selectedOption, clickedButton) {
 
     const currentQuestion = questions[currentQuestionIndex];
 
-    if (selectedOption === currentOption.answer) { // Aqui deve ser 'currentQuestion.answer'
+    // *** LINHA CORRIGIDA AQUI: de 'currentOption.answer' para 'currentQuestion.answer' ***
+    if (selectedOption === currentQuestion.answer) {
         score++; // Incrementa a pontuação se a resposta estiver correta
         currentScoreSpan.textContent = score; // Atualiza o placar no HTML
         feedbackText.textContent = 'Correto!';
