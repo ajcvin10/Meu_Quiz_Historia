@@ -1,0 +1,176 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total */
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 2.2em;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+#question-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#question-text {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Uma coluna por padrão */
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Para telas maiores, exibe duas colunas */
+@media (min-width: 600px) {
+    .options-grid {
+        grid-template-columns: 1fr 1fr; /* Duas colunas */
+    }
+}
+
+.option-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    text-align: left; /* Alinha o texto das opções à esquerda */
+    white-space: normal; /* Permite que o texto quebre linha */
+    word-wrap: break-word; /* Força quebra de palavras longas */
+}
+
+.option-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
+}
+
+.option-button:active {
+    transform: translateY(0); /* Efeito de clique */
+}
+
+.option-button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.feedback {
+    margin-top: 20px;
+    min-height: 80px; /* Garante espaço para o feedback */
+}
+
+#feedback-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#explanation-text {
+    font-size: 1em;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 5px solid #2ecc71; /* Borda verde para explicação correta */
+    border-radius: 4px;
+    text-align: left;
+}
+
+.btn {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #229a50;
+}
+
+.correct {
+    background-color: #2ecc71; /* Verde para resposta correta */
+    color: #fff;
+}
+
+.wrong {
+    background-color: #e74c3c; /* Vermelho para resposta errada */
+    color: #fff;
+}
+
+#score-area {
+    margin-top: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+}
+
+#current-score {
+    color: #27ae60; /* Verde para o placar atual */
+}
+
+/* Estilos para o botão de reiniciar */
+#restart-button {
+    background-color: #f39c12; /* Cor laranja */
+}
+
+#restart-button:hover {
+    background-color: #e67e22; /* Laranja mais escuro */
+}
+
+/* Estilos para a nova área dos GIFs de feedback */
+#gif-feedback-area {
+    text-align: center; /* Centraliza elementos inline/inline-block como imagens */
+    margin-bottom: 15px; /* Espaçamento entre o GIF e os botões de opção */
+    min-height: 150px; /* Garante que o layout não "pule" quando o GIF aparece */
+    display: flex; /* Usar flexbox para ajudar a centralizar verticalmente também, se necessário */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo flex */
+    align-items: center; /* Centraliza verticalmente o conteúdo flex */
+}
+
+
+/* Estilos para os GIFs de feedback */
+.feedback-gif {
+    /* Removido position: fixed, top, left, z-index */
+    display: none;   /* Esconde o GIF por padrão */
+    width: 150px;    /* Largura do GIF. Ajuste conforme desejar. */
+    height: auto;    /* Mantém a proporção original do GIF */
+    border-radius: 8px; /* Arredonda as bordas para um visual mais suave */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra para destacá-lo */
+}

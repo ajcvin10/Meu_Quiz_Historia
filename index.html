@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de História Grega</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de História Grega</h1>
+        <div id="quiz-area">
+            <div class="question-container">
+                <img id="question-image" src="" alt="Imagem da Pergunta" style="display: none;">
+                <p id="question-text"></p>
+            </div>
+
+            <!-- NOVO: Área para os GIFs de feedback, posicionada acima das opções -->
+            <div id="gif-feedback-area">
+                <img id="gifAcertou" src="images/Acertou.gif" alt="Acertou!" class="feedback-gif">
+                <img id="gifErrou" src="images/Errou.gif" alt="Errou!" class="feedback-gif">
+            </div>
+            <!-- FIM NOVO -->
+
+            <div id="options-container" class="options-grid">
+                <!-- As opções de resposta serão carregadas aqui pelo JavaScript -->
+            </div>
+            <div id="feedback-container" class="feedback">
+                <p id="feedback-text"></p>
+                <p id="explanation-text"></p>
+            </div>
+            <button id="next-button" class="btn" style="display: none;">Próxima Pergunta</button>
+        </div>
+        <div id="score-area">
+            <p>Placar: <span id="current-score">0</span> / <span id="total-questions">15</span></p>
+        </div>
+        <button id="restart-button" class="btn" style="display: none;">Reiniciar Jogo</button>
+    </div>
+
+    <script src="_data/questions.json"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

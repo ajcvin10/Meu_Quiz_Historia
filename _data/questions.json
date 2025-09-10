@@ -1,0 +1,197 @@
+[
+    {
+      "id": 1,
+      "question": "O que eram as pólis gregas?",
+      "options": [
+        "Era a forma como os países que se localizavam na Península Balcânica eram chamados.",
+        "Eram as cidades-Estado da Roma Antiga, fundamentais para o desenvolvimento e avanço da cultura romana.",
+        "As pólis gregas eram os locais em que os escribas trabalhavam para administrarem as cidades-Estado gregas.",
+        "Eram as cidades-Estado da Grécia Antiga, fundamentais para o desenvolvimento e avanço da cultura grega."
+      ],
+      "answer": "Eram as cidades-Estado da Grécia Antiga, fundamentais para o desenvolvimento e avanço da cultura grega.",
+      "explanation": "Pólis é o termo grego para cidade-Estado, que eram unidades políticas independentes e autossuficientes na Grécia Antiga, cada uma com suas próprias leis e governo. Elas foram cruciais para o desenvolvimento da cultura grega.",
+      "imageName": "Q1_polis_grega.png"
+    },
+    {
+      "id": 2,
+      "question": "Qual a principal característica geográfica da Grécia Antiga que influenciou a formação das cidades-Estado e quais mares a banhavam?",
+      "options": [
+        "Era uma região de grandes planícies férteis, banhada pelo Mar Vermelho e Mar Cáspio.",
+        "Era uma região predominantemente montanhosa e recortada por mares como o Egeu, Jônico e Mediterrâneo.",
+        "Era uma vasta área desértica, com acesso apenas ao Oceano Atlântico.",
+        "Era uma ilha isolada, com rios navegáveis para transporte."
+      ],
+      "answer": "Era uma região predominantemente montanhosa e recortada por mares como o Egeu, Jônico e Mediterrâneo.",
+      "explanation": "A geografia montanhosa da Grécia dificultava a comunicação terrestre e o Mar Egeu, Jônico e Mediterrâneo, com seu litoral recortado, facilitavam a navegação e a formação de comunidades isoladas, contribuindo para a autonomia das cidades-Estado.",
+      "imageName": "Q2_mapa_grecia.png"
+    },
+    {
+      "id": 3,
+      "question": "Na Grécia Antiga, o que era uma Acrópole e qual a sua importância?",
+      "options": [
+        "Uma praça pública central para o comércio e discussões filosóficas.",
+        "Uma cidade subterrânea usada como refúgio em tempos de guerra.",
+        "Uma 'cidade alta' fortificada, que servia de defesa e abrigava templos religiosos importantes.",
+        "Um local de treinamento militar para os jovens espartanos."
+      ],
+      "answer": "Uma 'cidade alta' fortificada, que servia de defesa e abrigava templos religiosos importantes.",
+      "explanation": "A Acrópole, que significa 'cidade alta' em grego, era uma elevação natural fortificada dentro das cidades gregas, utilizada para defesa em caso de ataques e onde se localizavam os principais templos e santuários religiosos, demonstrando a religiosidade grega.",
+      "imageName": "Q3_acropole.png"
+    },
+    {
+      "id": 4,
+      "question": "Na sociedade ateniense, qual grupo era composto por homens adultos e livres, filhos de pai e mãe atenienses, que tinham o direito de participar das atividades políticas?",
+      "options": [
+        "Metecos",
+        "Escravos",
+        "Cidadãos",
+        "Escribas"
+      ],
+      "answer": "Cidadãos",
+      "explanation": "Em Atenas, apenas os Cidadãos (homens adultos livres, filhos de pai e mãe atenienses) possuíam plenos direitos políticos, participando da vida pública e das decisões da pólis.",
+      "imageName": "Q4_cidadao_ateniense.png"
+    },
+    {
+      "id": 5,
+      "question": "Em qual cidade-Estado grega, após os sete anos de idade, os meninos passavam a viver em quartéis, dedicando-se ao exercício militar e acostumando-se a suportar a dor, a fome e o frio?",
+      "options": [
+        "Atenas",
+        "Corinto",
+        "Esparta",
+        "Tebas"
+      ],
+      "answer": "Esparta",
+      "explanation": "Esta descrição se refere à educação espartana, conhecida por sua rigidez e foco na formação de soldados. Em Esparta, a vida dos meninos era centrada no treinamento militar desde muito cedo, preparando-os para serem guerreiros disciplinados e resistentes.",
+      "imageName": "Q5_educacao_espartana.png"
+    },
+    {
+      "id": 6,
+      "question": "Que evento esportivo de grande importância para os gregos antigos era realizado em Olímpia, em homenagem aos deuses, e reunia atletas de diversas cidades-Estado?",
+      "options": [
+        "Os Jogos Pan-Helênicos",
+        "As Olimpíadas",
+        "Os Jogos Píticos",
+        "Os Jogos Istmicos"
+      ],
+      "answer": "As Olimpíadas",
+      "explanation": "As Olimpíadas eram o mais famoso dos jogos pan-helênicos (que uniam todos os gregos), realizados a cada quatro anos em Olímpia em honra a Zeus. Eram um símbolo de união e paz temporária entre as cidades-Estado, além de uma manifestação religiosa e cultural.",
+      "imageName": "Q6_jogos_olimpicos.png"
+    },
+    {
+      "id": 7,
+      "question": "Em comparação com a democracia ateniense, como a democracia brasileira atual funciona em relação à participação nas votações das leis?",
+      "options": [
+        "Nós participamos diretamente de todas as votações, assim como os atenienses.",
+        "Nós elegemos representantes (vereadores, deputados e senadores) para tomar decisões em nome do povo, diferente dos atenienses.",
+        "Apenas homens ricos podem participar das votações de leis no Brasil.",
+        "A população vota nas leis, mas as decisões finais são tomadas por um conselho de anciãos."
+      ],
+      "answer": "Nós elegemos representantes (vereadores, deputados e senadores) para tomar decisões em nome do povo, diferente dos atenienses.",
+      "explanation": "A democracia brasileira é representativa, o que significa que o povo elege representantes (vereadores, deputados, senadores) para criar e aprovar leis em seu nome. Diferente da democracia ateniense, que era direta e os cidadãos votavam nas leis pessoalmente.",
+      "imageName": "Q7_democracia_brasileira.png"
+    },
+    {
+      "id": 8,
+      "question": "De acordo com a cidadania no Brasil atual, quem é considerado cidadão e a partir de qual idade os jovens podem votar?",
+      "options": [
+        "Apenas homens maiores de 21 anos são cidadãos com direito a voto.",
+        "Todos os brasileiros (homens e mulheres) são considerados cidadãos, e a partir dos 16 anos já podem votar.",
+        "Somente homens casados com mais de 18 anos são cidadãos com direito a voto.",
+        "Apenas pessoas com propriedade podem ser consideradas cidadãos e votar, independentemente da idade."
+      ],
+      "answer": "Todos os brasileiros (homens e mulheres) são considerados cidadãos, e a partir dos 16 anos já podem votar.",
+      "explanation": "No Brasil, a cidadania é ampla e inclui homens e mulheres. O voto é obrigatório a partir dos 18 anos e facultativo para jovens de 16 e 17 anos, garantindo a participação política de uma faixa etária mais jovem.",
+      "imageName": "Q8_votacao_brasil.png"
+    },
+    {
+      "id": 9,
+      "question": "Na Atenas Antiga, quem era excluído da participação política e do conceito de cidadania, mesmo formando a maioria da população?",
+      "options": [
+        "Apenas os estrangeiros eram excluídos.",
+        "Mulheres, escravizados e estrangeiros.",
+        "Somente os homens livres eram excluídos.",
+        "Apenas os metecos (estrangeiros comerciantes) não podiam participar."
+      ],
+      "answer": "Mulheres, escravizados e estrangeiros.",
+      "explanation": "A democracia ateniense era restrita: mulheres, escravizados e estrangeiros (metecos) não eram considerados cidadãos e, portanto, estavam excluídos de qualquer participação política, apesar de serem a maioria da população.",
+      "imageName": "Q9_excluidos_atenas.png"
+    },
+    {
+      "id": 10,
+      "question": "Uma característica fundamental da democracia ateniense era que as leis eram criadas e votadas diretamente pelos cidadãos. Onde ocorriam essas votações?",
+      "options": [
+        "No Areópago",
+        "Na Bulé (Conselho dos Quinhentos)",
+        "Na Eclésia (Assembleia Popular)",
+        "No Tribunal dos Heliastas"
+      ],
+      "answer": "Na Eclésia (Assembleia Popular)",
+      "explanation": "A Eclésia era a assembleia popular de Atenas, onde todos os cidadãos tinham o direito de participar, debater e votar diretamente nas leis e decisões importantes da cidade. Era o principal órgão da democracia direta ateniense.",
+      "imageName": "Q10_ecclesia_atenas.png"
+    },
+    {
+      "id": 11,
+      "question": "Qual foi uma das mais importantes contribuições dos gregos para o pensamento humano, que buscava entender o mundo e a existência através da razão, e teve grandes nomes como Sócrates, Platão e Aristóteles?",
+      "options": [
+        "A matemática avançada",
+        "A filosofia",
+        "A medicina moderna",
+        "A metalurgia"
+      ],
+      "answer": "A filosofia",
+      "explanation": "A filosofia, que significa 'amor à sabedoria', foi um dos legados mais marcantes dos gregos. Pensadores como Sócrates, Platão e Aristóteles desenvolveram métodos de questionamento e razão para entender o universo e a condição humana, influenciando o pensamento ocidental por milênios.",
+      "imageName": "Q11_filosofia_grega.png"
+    },
+    {
+      "id": 12,
+      "question": "Os gregos antigos foram grandes inovadores de uma forma de arte que combinava encenação, música e dança, e que era usada tanto para tragédias quanto para comédias. Qual é essa forma de arte?",
+      "options": [
+        "A escultura em mármore",
+        "A arquitetura monumental",
+        "O teatro",
+        "A pintura em vasos"
+      ],
+      "answer": "O teatro",
+      "explanation": "O teatro grego, com suas tragédias e comédias, é um dos mais importantes legados culturais. As peças eram encenadas em anfiteatros e frequentemente abordavam temas mitológicos, morais e políticos, sendo uma forma de expressão artística e social.",
+      "imageName": "Q12_teatro_grego.png"
+    },
+    {
+      "id": 13,
+      "question": "Qual o principal legado arquitetônico dos gregos, caracterizado pelo uso de colunas e templos imponentes, como o Partenon em Atenas, que influencia a construção até hoje?",
+      "options": [
+        "As pirâmides",
+        "Os zigurates",
+        "Os anfiteatros",
+        "A arquitetura clássica (templos com colunas)"
+      ],
+      "answer": "A arquitetura clássica (templos com colunas)",
+      "explanation": "A arquitetura grega clássica é marcada pelo uso de ordens arquitetônicas (dórica, jônica e coríntia) e pela construção de templos grandiosos e simétricos, como o Partenon. Seus princípios de proporção e beleza continuam a influenciar a arquitetura mundial.",
+      "imageName": "Q13_arquitetura_grega.png"
+    },
+    {
+      "id": 14,
+      "question": "A sociedade espartana era fortemente militarizada. Qual era o papel principal dos cidadãos espartanos (esparcíatas) e quem realizava o trabalho agrícola e comercial?",
+      "options": [
+        "Os esparcíatas dedicavam-se ao comércio, e os metecos faziam o trabalho agrícola.",
+        "Os esparcíatas dedicavam-se ao treinamento militar, enquanto periecos e hilotas realizavam o trabalho.",
+        "Os esparcíatas trabalhavam na agricultura, e os hilotas eram soldados.",
+        "Todos os espartanos, incluindo os cidadãos, dedicavam-se igualmente ao trabalho manual e militar."
+      ],
+      "answer": "Os esparcíatas dedicavam-se ao treinamento militar, enquanto periecos e hilotas realizavam o trabalho.",
+      "explanation": "Em Esparta, os esparcíatas (cidadãos plenos) eram exclusivamente guerreiros e dedicavam suas vidas ao treinamento militar. Os trabalhos agrícolas e comerciais eram realizados por outras classes sociais, como os periecos (homens livres, mas sem cidadania) e os hilotas (servos do Estado, quase escravizados).",
+      "imageName": "Q14_soldado_espartano.png"
+    },
+    {
+      "id": 15,
+      "question": "Além da pólis ser uma cidade-Estado grega, qual fator geográfico foi crucial para o seu desenvolvimento isolado e autonomia na Grécia Antiga?",
+      "options": [
+        "A existência de vastas planícies férteis.",
+        "O relevo predominantemente montanhoso e o litoral recortado.",
+        "A ausência de rios navegáveis.",
+        "O clima desértico."
+      ],
+      "answer": "O relevo predominantemente montanhoso e o litoral recortado.",
+      "explanation": "A Grécia é uma região montanhosa e com um litoral muito recortado, o que dificultava as comunicações terrestres e favorecia o isolamento e a autonomia de cada pólis (cidade-Estado). O mar, no entanto, era a principal via de comunicação e comércio entre elas.",
+      "imageName": "Q15_mapa_polis_isolamento.png"
+    }
+  ]
